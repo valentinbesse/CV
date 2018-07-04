@@ -1,0 +1,164 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,a4paper]{twentysecondcv} % a4paper for A4
+
+\usepackage[utf8x]{inputenc} 
+%\usepackage[latin1]{inputenc} 
+\usepackage[T1]{fontenc} 
+\usepackage[frenchb]{babel}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{Valentin_2017} % Profile picture
+
+\cvname{Valentin Besse} % Your name
+\cvjobtitle{} % Job title/career
+
+\cvdate{10 ao\^ut 1988} % Date of birth
+\cvaddress{13, bd Lamartine \newline Bât. B, Appt. 207 \newline 72000 LE MANS} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+33 (0)647776445} % Phone number
+\cvsite{\footnotesize linkedin.com/in/valentin-besse} % Personal website
+\cvmail{valentinbesse@aumbox.net} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 COMPETENCES
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{C++/2},{C/2},{Python/3},{Shell Unix/3},{\LaTeX/6},{Matlab/6}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{lovely/4},{narcissistic/3}}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	 LANGUES
+%----------------------------------------------------------------------------------------
+
+\langueskills{$\bullet$ Anglais: courant \\ \hspace{0.5cm} TOEIC 770 (2010) \newline $\bullet$ Allemand: notion}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	 SAVOIR-FAIRE
+%----------------------------------------------------------------------------------------
+
+\savoirfairekills{$\bullet$ Conduite de réunion. \newline $\bullet$ Gestion de projet. \newline $\bullet$ Présentation de résultats.}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	 Centres d'intérêts
+%----------------------------------------------------------------------------------------
+
+\centreinteretkills{$\bullet$ Pratique de l'escalade. \newline $\bullet$ Membre des associations HAUM et TILIMA.}
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+
+{\Large Gestion de projet - Développement informatique} %vspace{0.25cm}
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Exp\'eriences professionnelles}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{Depuis 10/2016}{\textbf{Chercheur postdoctoral}}{IMMM, Le Mans}{Projet de recherche sur les interactions \\ magnétoélastiques \newline $\rightarrow$ Gestion de du projet l'équipe de recherche \\ internationale. \newline $\rightarrow$ Développement du code de calcul (Matlab, C++).  \vspace{0.2cm}\newline  Contrôle thermique de la diffraction des rayons X\newline $\rightarrow$ Développement du code de calcul et d'outils de traitement~des~données (Matlab).\vspace{0.2cm}}
+	\twentyitem{10/2015 - 10/2016}{Chercheur postdoctoral}{UMBC, Baltimore, MD, USA}{Etude des limites d'un système de communication non-linéaire par fibre optique. \newline $\rightarrow$ Partenariat avec Ciena Corporation. \newline $\rightarrow$ Gestion du projet et de l'équipe de recherche. \newline $\rightarrow$ Développement du code de calcul (Matlab). \newline $\rightarrow$ Utilisation du super-calculateur (shell UNIX).\vspace{0.2cm}}
+	\twentyitem{10/2011 - 12/2014}{Doctorant}{LPhiA, Angers}{Etude des interactions entre laser et matières \newline $\rightarrow$ Développement de l'algorithme de calcul \\(Matlab, C). \newline $\rightarrow$ Création d'outils de traitement des données (Matlab). \newline $\rightarrow$ Organisation de séminaires. \newline $\rightarrow$ Encadrement d'étudiants.\vspace{0.25cm}}
+	\twentyitem{02/2011 - 09/2011}{Stagiaire assistant recherche}{LPhiA, Angers}{Développement d'un profilomètre \newline $\rightarrow$ Développement de l'algorithme de calcul \\(Matlab). \newline $\rightarrow$ Développement des outils de traitement des données (Matlab). \newline $\rightarrow$ Automatisation du profilomètre (LabVIEW).}
+	%\twentyitem{<date>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Formation}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2011 - 2014}{Doctorat}{Université d'Angers}{\textit{Spécialité : théorie et simulation en optique non-linéaire}.\vspace{0.2cm}}
+	\twentyitem{2009 - 2011}{Master}{Universit\'e de Tours}{\textit{Modéles non-linéaires en physique}. \newline Mention très bien. \newline Major de promotion.\vspace{0.2cm}}
+	\twentyitem{2006 - 2009}{Licence}{Universit\'e de Tours}{\textit{Physique}. \newline Mention bien. \newline Major de promotion.}	
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 Hobbies
+%----------------------------------------------------------------------------------------
+
+%\section{Hobbies}
+%
+%\begin{twentyshort} % Environment for a list with descriptions
+    %\twentyitemshort{Sport}{Pratique de l'escalade\vspace{0.2cm}}
+	%\twentyitemshort{Nouvelles technologies}{Membre de l'association HAUM.\vspace{0.2cm}}
+	%\twentyitemshort{Jeux}{Jeux de société. \newline Jeux de rôle.\vspace{0.2cm}}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
